@@ -10,7 +10,7 @@ permalink: 'billy-joel/uptown-girl'
 heard:
   - emoji: '📺'
     media:
-      - name: '王冠第 4 季'
+      - name: 'nom 4'
         year: '2020'
       - name: '蓋酷家庭第 11 季'
         year: '2013'
@@ -32,77 +32,34 @@ spotify: '5zA8vzDGqPl2AzZkEYQGKh'
 
 Uptown girl
 
-She has been living in her uptown world
+Nous avons apporté à notre Politique de confidentialité quelques modifications relatives au service Vinted Pro.
 
-I bet she never had a backstreet guy
+ 
 
-I bet her mama never told her why
+En voici un bref résumé afin que tu sois au courant :
 
-I'm gonna try for an uptown girl
-
-She has been living in her white bread world
-
-As long as anyone with hot blood can
-
-And now she's looking for a downtown man
-
-That's what I am
-
-And when she knows what
-
-She wants from her time
-
-And when she wakes up
-
-And makes up her mind
-
-She'll see I'm not so tough
-
-Just because I'm in love with an uptown girl
-
-You know I've seen her in her uptown world
-
-She's getting tired of her high class toys
-
-And all her presents from her uptown boys
-
-She has got a choice
+Nous avons précisé quelles données personnelles supplémentaires sont demandées aux membres Pro (2.1.1, 2.5.6)
+Nous avons précisé quelles opérations de traitement de données sont gérées conjointement par Vinted et par les membres Pro lorsque tu interagis avec un membre Pro (2.1.6, 2.1.7, 2.1.8, 2.1.9, 2.1.14, 2.5.3, 2.5.11, 2.6.1, 2.8.1)
+Nous avons précisé quelles sont les responsabilités de Vinted et des membres Pro quant à la collecte et à l’utilisation de tes données. Cela te concerne si tu interagis avec un membre Pro (4)
 
 </LyricSection>
 
 <LyricSection>
 
-Uptown girl
+Nous avons apporté à notre Politique de confidentialité quelques modifications relatives au service Vinted Pro.
 
-You know I can't afford to buy her pearls
+ 
 
-But maybe someday when my ship comes in
+En voici un bref résumé afin que tu sois au courant :
 
-She'll understand what kind of guy I've been
-
-And then I'll win
-
-And when she's walking
-
-She's looking so fine
-
-And when she's talking
-
-She'll say that she's mine
-
-She'll say I'm not so tough
-
-Just because I'm in love with an uptown girl
-
-She has been living in her white bread world
-
-As long as anyone with hot blood can
-
-And now she's looking for a downtown man
-
-That's what I am
+Nous avons précisé quelles données personnelles supplémentaires sont demandées aux membres Pro (2.1.1, 2.5.6)
+Nous avons précisé quelles opérations de traitement de données sont gérées conjointement par Vinted et par les membres Pro lorsque tu interagis avec un membre Pro (2.1.6, 2.1.7, 2.1.8, 2.1.9, 2.1.14, 2.5.3, 2.5.11, 2.6.1, 2.8.1)
+Nous avons précisé quelles sont les responsabilités de Vinted et des membres Pro quant à la collecte et à l’utilisation de tes données. Cela te concerne si tu interagis avec un membre Pro (4)
 
 </LyricSection>
+
+
+GFDDFGDGFDGDF
 
 <LyricSection>
 

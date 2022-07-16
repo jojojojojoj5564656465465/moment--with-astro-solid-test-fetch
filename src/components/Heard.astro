@@ -5,7 +5,7 @@ export interface Props {
   heard: {
     emoji: string;
     name: string;
-    year: string;
+    year: number;
     url: string;
   };
 }
@@ -13,13 +13,13 @@ export interface Props {
 const { heard } = Astro.props;
 ---
 
-<strong class="title">出現在</strong>
+<strong class="title">titre heard</strong>
 <ul class="heardList">
 {
   heard.map(({ emoji, media }) => {
     return(
       <li>
-        <strong class="mediaEmoji">{emoji}</strong>
+        <strong class="mediaEmoji">"heard.map" {emoji}</strong>
         <HeardItem media={media} client:idle />
       </li>
     )
@@ -54,8 +54,9 @@ const { heard } = Astro.props;
 .mediaEmoji {
   display: inline-block;
   margin-bottom: 4px;
-  color: hsl(var(--color-shade1100));
-  font-size: 1.8rem;
+  color: red;
+  text-transform: uppercase;
+  font-size: 2.8rem;
 }
 
 .player {

@@ -43,6 +43,7 @@
   background-color: transparent;
   border: 0;
   cursor: pointer;
+  background-color: greenyellow;
 }
 
 .expand:disabled {

@@ -9,12 +9,12 @@ import Footer from '../components/Footer.astro';
 const { content } = Astro.props;
 const { name, album, year, heard, artist, permalink, datePublished, dateModified } = content;
 
-const title = `聽到 ${name} (${artist}) 的電影、電視劇`;
+const title = `hello (${year}) ${name} (${artist}) `;
 
 const descriptionHeard = (heards) => {
   const lv1 = heards.map(({ media }) => {
-    const lv2 = media.map(({ name, year }) => {
-      const mediaUnit = `${name} (${year})`;
+    const lv2 = media.map(({ name, year , artist}) => {
+      const mediaUnit = ` (${artist})${name} (${year})`;
       return mediaUnit;
     });
     return lv2;
@@ -22,13 +22,13 @@ const descriptionHeard = (heards) => {
   return lv1.flat(1).join('、');
 }
 
-const description = `${year} 年 ${artist} 的專輯：${album}。出現在${descriptionHeard(heard)}。`;
+const description = `${year} an ${artist} artist${album} ${descriptionHeard(heard)}`;
 ---
 
-<html lang="zh-TW">
+<html lang="en">
 
 <head>
-  <BaseHead {title} {description} {name} {artist} {permalink} {datePublished} {dateModified} />
+  <BaseHead  {title} {description} {name} {artist} {permalink} {datePublished} {dateModified} />
 </head>
 
 <body data-body-style="song">
@@ -43,7 +43,7 @@ const description = `${year} 年 ${artist} 的專輯：${album}。出現在${des
     <Heard {heard} client:media="(max-width: 991px)" />
   </aside>
   <main class="content">
-    <h2 class="songTitle">歌詞</h2>
+    <h2 class="songTitle">Les paroles de la chanson</h2>
     <article class="songLyric">
       <slot />
     </article>
@@ -60,9 +60,9 @@ const description = `${year} 年 ${artist} 的專輯：${album}。出現在${des
 
     @media screen and (min-width: 992px) {
       grid: "meta lyric" auto "heard lyric" auto "footer footer" auto / 400px minmax(10px, 560px);
-      align-items: start;
+      align-items: end;
       justify-content: center;
-      column-gap: 48px;
+      column-gap: 98px;
     }
   }
 
@@ -100,6 +100,7 @@ const description = `${year} 年 ${artist} 的專輯：${album}。出現在${des
     grid-area: lyric;
     margin-bottom: 64px;
     padding: 0 16px;
+   width: 80%;
 
     @media screen and (min-width: 992px) {
       padding: 48px 0 0;
